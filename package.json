@@ -1,0 +1,38 @@
+{
+    "name": "tms-automation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "wdio run wdio.conf.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/cli": "^7.19.7",
+        "@wdio/local-runner": "^7.19.7",
+        "@wdio/mocha-framework": "^7.19.7",
+        "@wdio/spec-reporter": "^7.19.7",
+        "@wdio/sync": "^7.6.0",
+        "babel-eslint": "^8.2.6",
+        "chromedriver": "^101.0.0",
+        "eslint": "^4.19.1",
+        "eslint-plugin-mocha": "^6.3.0",
+        "eslint-watch": "^7.0.0",
+        "selenium-standalone": "^6.23.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-eslinter-service": "0.0.2",
+        "webdriverio": "^7.6.0"
+    },
+    "dependencies": {
+        "@wdio/codemod": "^0.9.0",
+        "chai": "^4.3.4",
+        "eslint-plugin-import": "^2.23.4",
+        "randomstring": "^1.2.2",
+        "wdio-config": "^5.0.0-alpha.7"
+    },
+    "engines": {
+        "node": ">=12.4.0"
+    }
+}
